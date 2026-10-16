@@ -2,8 +2,8 @@ import io, re
 from pathlib import Path
 from pypdf import PdfReader
 from docx import Document
-from .models import ResumeProfile
-from .taxonomy import SKILLS
+from models import ResumeProfile
+from taxonomy import SKILLS
 
 SECTION_ALIASES = {
     "education": ["education", "academic background"],
