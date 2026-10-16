@@ -1,7 +1,7 @@
 import re
-from .models import Evidence, SimulationResult
-from .taxonomy import SEMANTIC
-from .platforms import PLATFORMS
+from models import Evidence, SimulationResult
+from taxonomy import SEMANTIC
+from platforms import PLATFORMS
 
 WEIGHTS={"Hard Requirements":.30,"Required Qualifications":.25,"Skills Match":.20,"Experience Match":.15,"Education Match":.05,"ATS Readability":.05}
 
