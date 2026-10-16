@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from ats_simulator.resume_parser import parse_resume
-from ats_simulator.job_parser import parse_job
-from ats_simulator.engine import evaluate
-from ats_simulator.platforms import PLATFORMS
-from ats_simulator.ui import metric_row, score_bars
+from resume_parser import parse_resume
+from job_parser import parse_job
+from engine import evaluate
+from platforms import PLATFORMS
+from ui import metric_row, score_bars
 
 st.set_page_config(page_title="Transparent ATS Simulator", page_icon="📄", layout="wide")
 st.title("Transparent ATS Simulator")
