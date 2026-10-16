@@ -1,0 +1,15 @@
+PLATFORMS = {
+    "Unknown / Generic ATS": {"parse_modifier": 0, "note": "Generic transparent simulation using common recruiting practices."},
+    "Workday": {"parse_modifier": -1, "note": "Workday-mode changes workflow/presentation assumptions only; no proprietary ranking formula is claimed."},
+    "Greenhouse": {"parse_modifier": 0, "note": "Greenhouse-mode uses the generic scoring model with structured recruiter-review presentation."},
+    "Lever": {"parse_modifier": 0, "note": "Lever-mode uses the generic scoring model with recruiter-centric presentation."},
+    "iCIMS": {"parse_modifier": -1, "note": "iCIMS-mode uses generic matching with a small conservative parsing adjustment."},
+    "Oracle/Taleo": {"parse_modifier": -2, "note": "Oracle/Taleo-mode uses generic matching with conservative parsing assumptions."},
+    "SAP SuccessFactors": {"parse_modifier": -1, "note": "SuccessFactors-mode uses generic matching and explicit application-question checks."},
+    "SmartRecruiters": {"parse_modifier": 0, "note": "SmartRecruiters-mode uses the generic transparent scoring model."},
+    "Ashby": {"parse_modifier": 0, "note": "Ashby-mode uses generic deterministic matching with recruiter-oriented presentation."},
+    "ADP": {"parse_modifier": -1, "note": "ADP-mode uses generic matching with conservative parsing assumptions."},
+    "UKG": {"parse_modifier": -1, "note": "UKG-mode uses generic matching with conservative parsing assumptions."},
+    "Dayforce": {"parse_modifier": -1, "note": "Dayforce-mode uses generic matching with explicit eligibility checks."},
+    "Avature": {"parse_modifier": 0, "note": "Avature-mode uses generic matching; configurable workflows are represented through user-entered knockout questions."},
+}
