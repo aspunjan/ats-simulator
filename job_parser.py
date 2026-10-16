@@ -1,6 +1,6 @@
 import re
-from .models import JobProfile
-from .taxonomy import SKILLS
+from models import JobProfile
+from taxonomy import SKILLS
 
 HARD_PATTERNS = [
     r'[^.\n]*(?:must be authorized|work authorization|authorized to work)[^.\n]*',
